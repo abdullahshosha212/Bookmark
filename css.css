@@ -1,0 +1,32 @@
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5a5a5a;
+    
+}
+.container {
+    background: white;
+    text-align: center;
+    margin-top: 320px;
+    padding: 80px;
+}
+input {
+    font-size:large;
+    width: 80%;
+    padding: 20px;
+}
+button {
+    
+    padding: 10px 15px;
+    margin: 30px;
+    border: 0;
+    border-radius: 50px;
+    background-color: #007BFF;
+    color: white;
+}
+.bookmark {
+    font-size:x-large;
+    background: #bebebeea;
+}

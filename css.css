@@ -1,0 +1,53 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  
+
+}
+body{
+  background: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.score{
+  
+  padding-right: 150px;
+
+}
+
+  .start{
+background: #3f3f3f;
+width: 300px;
+height: 50px;
+margin-right: 50px;
+
+
+
+
+
+}
+.grid{   width: 600px;
+height: 600px;
+display: flex;
+flex-wrap: wrap;
+border-style: solid;
+margin-right: 150px;
+background: #00006a;
+  }
+  
+  .grid div {
+width: 60px;
+height: 60px;
+  }
+  
+  .snake {
+  background-color: blue;
+  }
+  
+  .apple {
+    background-color: rgb(128, 0, 0);
+  }
+  
